@@ -1,1 +1,4 @@
 # Algorithms
+
+### [Binary Search]()
+### [Mergesort]()
