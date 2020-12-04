@@ -2,3 +2,4 @@
 
 * [Binary Search](https://github.com/MananKGarg/Algorithms/blob/main/Binary%20Search.py)
 * [Mergesort](https://github.com/MananKGarg/Algorithms/blob/main/mergesort.py)
+* [Quicksort](https://github.com/MananKGarg/Algorithms/blob/main/quicksort.py)
