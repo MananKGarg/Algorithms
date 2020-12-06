@@ -1,6 +1,7 @@
 '''Though this implementation of quicksort looks simpler and more intuitive than the original in the Algorithms repository,
 this is a slightly worse quicksort than the other one. It is because here, we create new subarrays at every call
- which we didn't do there. But this looks neat'''
+ which we didn't there. Also we iterate over the array twice to calculate less and greater. We do this in one iteration 
+ in the other one But this looks neat'''
 
 def quicksort(arr):
     if len(arr) < 2:          # (Base case) Arrays with lengths 0 or 1 are already sorted
