@@ -4,14 +4,9 @@ def partition(A, l, r):
     for i in range(l+1, r+1):
         if A[i] <= pivot:
             j = j + 1
-            temp = A[j]
-            A[j] = A[i]
-            A[i] = temp
-
-    temp1 = A[j]
-    A[j] = A[l]
-    A[l] = temp1
-
+            A[i], A[j] = A[j], A[i]
+        
+    A[j], A[l] = A[l], A[j]
     return A, j
 
 def quicksort(A, l, r):
