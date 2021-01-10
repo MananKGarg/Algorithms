@@ -28,8 +28,7 @@ int lcs(char *A, char *B){
             else{
                 lcs_matrix[i][j] = max(lcs_matrix[i-1][j],lcs_matrix[i][j-1]);
             }
-        }
-        
+        }  
     }
     return lcs_matrix[n][m];
 }
@@ -40,7 +39,5 @@ int main()
     char B[] = "gxtxayb";
     
     cout << "lcs " << lcs(A,B);
-    
-
     return 0;
 }
