@@ -14,7 +14,7 @@ def edit_distance(s,t):                          # converting s to t
                 replace = 1 + matrix[i-1][j-1]   # replace the last character of s with t
                 insertion = 1 + matrix[i-1][j]   # insert a character at the end of t
                 deletion = 1 + matrix[i][j-1]    # delete a character at the end of t
-                matrix[i][j] = matrix[i][j] + min(replace, insertion, deletion)
+                matrix[i][j] = min(replace, insertion, deletion)
     return matrix[-1][-1]
 
 print(edit_distance('food','money'))
