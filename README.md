@@ -9,3 +9,5 @@
 * [Selection Sort](https://github.com/MananKGarg/Algorithms/blob/main/Selection%20Sort.py)
 * [Longest Common Subsequence (C++)](https://github.com/MananKGarg/Algorithms/blob/main/Longest%20Common%20Subsequence.cpp)
 * [Longest Common Subsequence (Python)](https://github.com/MananKGarg/Algorithms/blob/main/Longest%20common%20subsequence.py)
+* [Edit Distance (equal points for insert, delete and replace C++)](https://github.com/MananKGarg/Algorithms/blob/main/Edit_Distance.cpp)
+* [Edit Distance (equal points for insert, delete and replace Python)](https://github.com/MananKGarg/Algorithms/blob/main/Edit_Distance.py)
