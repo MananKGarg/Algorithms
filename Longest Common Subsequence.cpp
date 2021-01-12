@@ -23,10 +23,10 @@ int lcs(char *A, char *B){
                 lcs_matrix[i][j] = 0;
             }
             else if (B[i-1] == A[j-1]){
-                lcs_matrix[i][j] = lcs_matrix[i-1][j-1] + 1;
+                lcs_matrix[i][j] = lcs_matrix[i-1][j-1] + 1;                    // When last character is same, one character is added to lcs
             }
             else{
-                lcs_matrix[i][j] = max(lcs_matrix[i-1][j],lcs_matrix[i][j-1]);
+                lcs_matrix[i][j] = max(lcs_matrix[i-1][j],lcs_matrix[i][j-1]);  // When its not same, it is maximum of one complete string with one complete string without the last character
             }
         }  
     }
