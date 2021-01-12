@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int min(int x, int y, int z){
+int min(int x, int y, int z){    // returns minimum of 3 numbers
     if (x <= y && x <= z){
         return x;
     }    
